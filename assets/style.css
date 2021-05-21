@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+a,
+a:visited {
+  color: unset;
+  text-decoration: none;
+}
+
+.buttonStyle {
+  font-size: 18px;
+  margin: 1% 0;
+  padding: 6.6px;
+  width: 200px;
+  color: white;
+  border: 2px solid white;
+  background-color: unset;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.buttonStyle:hover {
+  background-color: white;
+  color: black;
+}
+
+nav {
+  background-color: #141414;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+nav a {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+nav a:hover {
+  color: #808080;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+
+.topNav {
+  border-top: 1px solid #6b6b6b;
+  border-bottom: 1px solid #6b6b6b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 80px;
+}
+
+.topNav a {
+  padding: 18px;
+  border-right: 1px solid #6b6b6b;
+}
+
+.sideNav {
+  border-left: 1px solid #6b6b6b;
+  border-right: 1px solid #6b6b6b;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sideNav a {
+  padding: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid #6b6b6b;
+  border-bottom: 1px solid #6b6b6b;
+}
+
+.sideNav img {
+  height: 30px;
+}
+
+.sideNav .fab {
+  font-size: 30px;
+}
+
+body {
+  background-color: #141414;
+}
+
+.mainContainer {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.mainContainer .headerTitle h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+
+.mainContainer .headerTitle .titleBorder {
+  border-bottom: 4px solid white;
+  width: 50%;
+}
+
+.mainContainer .project .toolIcon {
+  font-size: 50px;
+  margin: 0 5px;
+}
+
+.mainContainer .project img {
+  border: 2px solid white;
+  width: 90%;
+}
+
+.mainContainer .project h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.mainContainer .project p {
+  width: 90%;
+}
+
+@media only screen and (max-width: 1441px) {
+  .mainContainer {
+    margin-top: 7%;
+    margin-left: 7%;
+  }
+  .mainContainer .headerTitle h1 {
+    font-size: 40px;
+  }
+  .mainContainer .headerTitle .titleBorder {
+    width: 42%;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .mainContainer {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  .mainContainer .headerTitle .titleBorder {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .topNav a,
+  .sideNav a {
+    padding: 9px;
+  }
+  .topNav {
+    margin-left: 62px;
+  }
+  .mainContainer {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  .mainContainer .headerTitle h1 {
+    font-size: 40px;
+  }
+  .mainContainer .headerTitle .titleBorder {
+    width: 80%;
+  }
+  .buttonStyle {
+    width: 143px;
+  }
+  .mainContainer .project p {
+    font-size: 14px;
+  }
+  .mainContainer .project .toolIcon {
+    font-size: 29px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .topNav a,
+  .sideNav a {
+    padding: 4px;
+    font-size: 18px;
+  }
+  .sideNav img {
+    height: 27px;
+  }
+  .topNav {
+    margin-left: 48px;
+  }
+  .mainContainer {
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+  .mainContainer .headerTitle h1 {
+    font-size: 20px;
+  }
+  .buttonStyle {
+    font-size: 14px;
+    margin: 2% 0;
+    width: 140px;
+  }
+  .mainContainer .project img {
+    width: 84%;
+  }
+  .mainContainer .project p {
+    width: 84%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .topNav a,
+  .sideNav a {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .topNav {
+    margin-left: 37px;
+  }
+  .sideNav img {
+    height: 18px;
+  }
+  .sideNav .fab {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
