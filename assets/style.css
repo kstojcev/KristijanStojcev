@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
 * {
   font-family: "Poppins", sans-serif;
-  color: white;
+  color: #ffffff;
 }
 
 a,
@@ -10,13 +10,18 @@ a:visited {
   text-decoration: none;
 }
 
+.buttons {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 .buttonStyle {
   font-size: 18px;
   margin: 1% 0;
-  padding: 6.6px;
+  padding: 8px 45px;
   width: 200px;
-  color: white;
-  border: 2px solid white;
+  color: #ffffff;
+  border: 2px solid #ffffff;
   background-color: unset;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -24,13 +29,13 @@ a:visited {
 }
 
 .buttonStyle:hover {
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 nav {
   background-color: #141414;
-  color: white;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 200;
   text-transform: uppercase;
@@ -44,7 +49,7 @@ nav a {
 nav a:hover {
   color: #808080;
   cursor: pointer;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #ffffff;
 }
 
 .topNav {
@@ -116,12 +121,12 @@ body {
 .mainContainer .headerTitle h1 {
   font-size: 70px;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   font-weight: 700;
 }
 
 .mainContainer .headerTitle .titleBorder {
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid #ffffff;
   width: 50%;
 }
 
@@ -131,7 +136,7 @@ body {
 }
 
 .mainContainer .project img {
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   width: 90%;
 }
 
@@ -165,6 +170,9 @@ body {
   .mainContainer .headerTitle .titleBorder {
     width: 60%;
   }
+  .buttons {
+    margin-top: 3%;
+  }
 }
 
 @media only screen and (max-width: 769px) {
@@ -186,7 +194,7 @@ body {
     width: 80%;
   }
   .buttonStyle {
-    width: 143px;
+    padding: 0px 28px;
   }
   .mainContainer .project p {
     font-size: 14px;
@@ -218,6 +226,7 @@ body {
   .buttonStyle {
     font-size: 14px;
     margin: 2% 0;
+    padding: 1% 16px;
     width: 140px;
   }
   .mainContainer .project img {
@@ -242,6 +251,9 @@ body {
   }
   .sideNav .fab {
     font-size: 12px;
+  }
+  .buttonStyle {
+    padding: 1% 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
