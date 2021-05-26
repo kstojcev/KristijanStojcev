@@ -2,7 +2,7 @@ $(function () {
   let contact = $("#contact");
   let aboutMeBtn = $("#aboutMeBtn");
   let aboutMe = $("#aboutMe");
-  // aboutMe.hide();
+  aboutMe.hide();
 
   contact.on("click", function (e) {
     e.preventDefault();
