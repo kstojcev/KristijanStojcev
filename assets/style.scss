@@ -101,7 +101,15 @@ body {
     }
     .titleBorder {
       border-bottom: 4px solid #ffffff;
-      width: 50%;
+      width: 60%;
+    }
+    .aboutMe {
+      width: 60%;
+      text-align: justify;
+      .titleBorder {
+        border-bottom: 4px solid #ffffff;
+        width: 100%;
+      }
     }
   }
   .project {
@@ -135,7 +143,11 @@ body {
     font-size: 40px;
   }
   .mainContainer .headerTitle .titleBorder {
-    width: 42%;
+    width: 50%;
+  }
+  .mainContainer .aboutMe {
+    width: 50% !important;
+    font-size: 20px;
   }
 }
 
@@ -144,11 +156,14 @@ body {
     margin-top: 10%;
     margin-left: 10%;
   }
-  .mainContainer .headerTitle .titleBorder {
-    width: 60%;
-  }
   .buttons {
     margin-top: 3%;
+  }
+  .mainContainer .headerTitle .titleBorder {
+    width: 70%;
+  }
+  .mainContainer .aboutMe {
+    width: 70% !important;
   }
 }
 
@@ -171,7 +186,7 @@ body {
     font-size: 40px;
   }
   .mainContainer .headerTitle .titleBorder {
-    width: 80%;
+    width: 95%;
   }
   .buttonStyle {
     padding: 0px 28px;
@@ -181,6 +196,9 @@ body {
   }
   .mainContainer .project .toolIcon {
     font-size: 29px;
+  }
+  .mainContainer .aboutMe {
+    width: 95% !important;
   }
 }
 
@@ -218,6 +236,10 @@ body {
   .mainContainer .project p {
     width: 84%;
   }
+  .mainContainer .aboutMe {
+    font-size: 14px;
+    text-align: left !important;
+  }
 }
 @media only screen and (max-width: 376px) {
   .topNav,
@@ -234,7 +256,7 @@ body {
     height: 18px;
   }
   .sideNav .fab {
-    font-size: 12px;
+    font-size: 24px;
   }
   .buttonStyle {
     padding: 1% 10px;

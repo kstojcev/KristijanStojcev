@@ -1,5 +1,8 @@
 $(function () {
   let contact = $("#contact");
+  let aboutMeBtn = $("#aboutMeBtn");
+  let aboutMe = $("#aboutMe");
+  // aboutMe.hide();
 
   contact.on("click", function (e) {
     e.preventDefault();
@@ -8,5 +11,9 @@ $(function () {
     } else if (contact.text() == "stojcev_kristijan@hotmail.com") {
       contact.text("contact");
     }
+  });
+
+  aboutMeBtn.on("click", function () {
+    aboutMe.toggle(500);
   });
 });
