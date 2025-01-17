@@ -1,58 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
-    />
-    <!-- Fontawesome Icons-->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
-      crossorigin="anonymous"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="shortcut icon" href="./assets/images/logo (1).png" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Kristijan Stojcev | Fullstack Developer</title>
-  </head>
-  <body>
-    <nav id="topBar" class="fixed-top topNav">
-      <a
-        href="https://drive.google.com/file/d/1mlkO8tIiClceTU0fbR2aWACWEq3RPOfF/view"
-        target="_blank"
-        ><i class="fas fa-download"></i> cv</a
-      >
-      <a id="contact" href="">contact</a>
-    </nav>
-    <nav id="sideBar" class="sideNav">
-      <a href="#">
-        <img src="./assets/images/logo.png" alt="" />
-      </a>
-      <div>
-        <a
-          href="https://www.linkedin.com/in/kristijan-stojcev/"
-          class="fab fa-linkedin-in"
-        ></a>
-        <a href="https://github.com/kstojcev" class="fab fa-github"></a>
-      </div>
-    </nav>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <!-- Fontawesome Icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="shortcut icon" href="./assets/images/logo (1).png" />
 
-    <div class="mainContainer">
-      <div class="headerTitle">
-        <h1>kristijan stojcev</h1>
-        <h1>fullstack web developer</h1>
-        <div class="titleBorder"></div>
-        <button id="aboutMeBtn" class="buttonStyle">About Me</button>
+  <title>Kristijan Stojcev | Fullstack Developer</title>
+</head>
+
+<body>
+  <nav id="topBar" class="fixed-top topNav">
+    <a href="https://drive.google.com/file/d/1mlkO8tIiClceTU0fbR2aWACWEq3RPOfF/view" target="_blank"><i
+        class="fas fa-download"></i> cv</a>
+    <a id="contact" href="">contact</a>
+  </nav>
+  <nav id="sideBar" class="sideNav">
+    <a href="#">
+      <img src="./assets/images/logo.png" alt="" />
+    </a>
+    <div>
+      <a href="https://www.linkedin.com/in/kristijan-stojcev/" class="fab fa-linkedin-in"></a>
+      <a href="https://github.com/kstojcev" class="fab fa-github"></a>
+    </div>
+  </nav>
+
+  <div class="mainContainer">
+    <div class="headerTitle">
+      <h1>kristijan stojcev</h1>
+      <h1>fullstack web developer</h1>
+      <div class="titleBorder mb-5"></div>
+      <!-- <button id="aboutMeBtn" class="buttonStyle">About Me</button>
         <div id="aboutMe" class="aboutMe mb-3">
           <p>
             I am a full-stack web developer with a strong eye for design and a
@@ -61,306 +49,106 @@
             particular sector.
           </p>
           <div class="titleBorder"></div>
+        </div> -->
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 project mb-5">
+          <img src="./assets/images/acceros.png" alt="" />
+          <div class="buttons">
+            <a target="_blank" class="buttonStyle" href="https://www.acceros.com/">See Live</a>
+          </div>
+
+          <h2>Acceros</h2>
+          <hr />
         </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 project mb-5">
-            <img src="./assets/images/brainsterpreneurs.png" alt="" />
-            <div class="buttons">
-              <a class="buttonStyle" href="http://kiko.astennu.com/"
-                >See Live</a
-              >
-              <a
-                class="buttonStyle"
-                href="https://github.com/kstojcev/brainsterpreneurs"
-                >View code</a
-              >
-            </div>
-
-            <h2>brainsterpreneurs</h2>
-            <p>
-              Brainsterpreneurs is a platform on which students from different
-              academies can collaborate together. Every student can post a
-              project which other students can apply to according to the academy
-              they are attending. Then the creator of the project can accept the
-              students he thinks match the project requirements and assemble his
-              team. See and try the platform yourself on the link above.
-            </p>
-            <p>
-              *Note: responsive design not done yet, please view on 1920x1080.
-            </p>
-
-            <div>
-              <h4>Technologies used:</h4>
-              <i class="fab fa-html5 toolIcon"></i>
-              <i class="fab fa-css3 toolIcon"></i>
-              <i class="fab fa-bootstrap toolIcon"></i>
-              <i class="fab fa-js toolIcon"></i>
-              <i class="fab fa-php toolIcon"></i>
-              <i class="fas fa-database toolIcon"></i>
-              <i class="fab fa-laravel toolIcon"></i>
-              <span
-                class="iconify toolIcon"
-                data-icon="file-icons:adobe-photoshop"
-              ></span>
-            </div>
-            <hr />
+        <div class="col-md-6 project mb-5">
+          <img src="./assets/images/tbs.png" alt="" />
+          <div class="buttons">
+            <a target="_blank" class="buttonStyle" href="https://www.thebuyingsolution.co.uk/">See Live</a>
           </div>
 
-          <div class="col-md-6 project mb-5">
-            <img src="./assets/images/covid-tracker.png" alt="" />
-            <div class="buttons">
-              <a class="buttonStyle" href="https://astennu.com/kstojcev/"
-                >See Live</a
-              >
-              <a
-                class="buttonStyle"
-                href="https://github.com/kstojcev/Covid-Tracker"
-                >View code</a
-              >
-            </div>
-
-            <h2>covid tracker</h2>
-            <p>
-              This project is made for tracking, storing and listing Global
-              Covid-19 data as well as data for each country. The project
-              features filters that select data accordingly to one of the
-              selected filters("Daily", "Monthly", "Three months"). The landing
-              page is filled with global data, while the countries page is ment
-              for specifying a certain country and getting data specifically for
-              that country. The protective measures page has information about
-              staying safe and protecting us and others.
-            </p>
-
-            <div>
-              <h4>Technologies used:</h4>
-              <i class="fab fa-html5 toolIcon"></i>
-              <i class="fab fa-css3 toolIcon"></i>
-              <i class="fab fa-bootstrap toolIcon"></i>
-              <i class="fab fa-js toolIcon"></i>
-              <i class="fab fa-php toolIcon"></i>
-              <i class="fas fa-database toolIcon"></i>
-              <span
-                class="iconify toolIcon"
-                data-icon="file-icons:adobe-photoshop"
-              ></span>
-            </div>
-            <hr />
+          <h2>The Buying Solution</h2>
+          <hr />
+        </div>
+        <div class="col-md-6 project mb-5">
+          <img src="./assets/images/club8.png" alt="" />
+          <div class="buttons">
+            <a target="_blank" class="buttonStyle" href="https://club8.mk/">See Live</a>
           </div>
 
-          <div class="col-md-6 project mb-5">
-            <img src="./assets/images/brainster-labs.png" alt="" />
-            <div class="buttons">
-              <a
-                class="buttonStyle"
-                href="https://brainsterlabs-ks.netlify.app/?fbclid=IwAR27dInNBtqYXIcWTBzgO3ngXY79c7HTQcvqD55XorWBHCL2rduBo13Wk1Y"
-                >See Live</a
-              >
-              <a
-                class="buttonStyle"
-                href="https://github.com/kstojcev/BrainsterLabs"
-                >View code</a
-              >
-            </div>
-
-            <h2>brainster labs</h2>
-            <p>
-              A fully responsive application that helps Brainster students
-              display their projects and helps employers view the same projects
-              and choose a certain student. The page has a functional filter
-              which helps filter projects from different academies. Also the
-              application is connected to a database in-case an employer shows
-              interest, he can leave contact information and he will be
-              contacted from Brainster.
-              <br />
-              The whole point was to be unique so i made many changes from the
-              original prototype version and it's guidelines .
-            </p>
-
-            <div>
-              <h4>Technologies used:</h4>
-              <i class="fab fa-html5 toolIcon"></i>
-              <i class="fab fa-css3 toolIcon"></i>
-              <i class="fab fa-bootstrap toolIcon"></i>
-              <i class="fab fa-js toolIcon"></i>
-              <i class="fab fa-php toolIcon"></i>
-              <i class="fas fa-database toolIcon"></i>
-              <span
-                class="iconify toolIcon"
-                data-icon="file-icons:adobe-photoshop"
-              ></span>
-            </div>
-            <hr />
+          <h2>Club 8</h2>
+          <hr />
+        </div>
+        <div class="col-md-6 project mb-5">
+          <img src="./assets/images/hiveroom.png" alt="" />
+          <div class="buttons">
+            <a target="_blank" class="buttonStyle" href="https://www.pcb.mk/hiveroom">See Live</a>
           </div>
 
-          <div class="col-md-6 project mb-5">
-            <img src="./assets/images/recipes-page.png" alt="" />
-            <div class="buttons">
-              <a
-                class="buttonStyle"
-                href="https://kstojcev.github.io/Recipes-Page/"
-                >See Live</a
-              >
-              <a
-                class="buttonStyle"
-                href="https://github.com/kstojcev/Recipes-Page"
-                >View code</a
-              >
-            </div>
-
-            <h2>recipes page</h2>
-            <p>
-              Just a mini-project that gathers information from an API about
-              meals. The page is fully responsive with a search-bar in which the
-              user puts a certain ingredient in the input, upon pressing the
-              search button, all recipes that contain the ingredient are
-              filtered. Further the user can click the "Get Recipe" button which
-              opens up a modal which provides information about the meal's
-              category and a short guide on how to prepare the meal. At the end
-              of the modal there is a link which leads to a video tutorial on
-              how to prepare the meal.
-            </p>
-
-            <div>
-              <h4>Technologies used:</h4>
-              <i class="fab fa-html5 toolIcon"></i>
-              <i class="fab fa-css3 toolIcon"></i>
-              <i class="fab fa-js toolIcon"></i>
-              <span
-                class="iconify toolIcon"
-                data-icon="file-icons:adobe-photoshop"
-              ></span>
-            </div>
-            <hr />
+          <h2>ProCredit Hive Room</h2>
+          <hr />
+        </div>
+        <div class="col-md-6 project mb-5">
+          <img src="./assets/images/ruraltour.png" alt="" />
+          <div class="buttons">
+            <a target="_blank" class="buttonStyle" href="https://ruraltourmk.com/">See Live</a>
           </div>
 
-          <div class="col-md-6 project mb-5">
-            <img src="./assets/images/bike-shop.png" alt="" />
-            <div class="buttons">
-              <a
-                class="buttonStyle"
-                href="https://kstojcev.github.io/Bike-Shop/"
-                >See Live</a
-              >
-              <a
-                class="buttonStyle"
-                href="https://github.com/kstojcev/Bike-Shop"
-                >View Code</a
-              >
-            </div>
-
-            <h2>Bike Shop</h2>
-            <p>
-              A fully responsive Bike Shop page that provides images and names
-              for different bike models with a working filter that sorts bikes
-              by gender and brands. Mainly it is a landing page that gathers
-              information about bikes from an API and displays them.
-            </p>
-
-            <div>
-              <h4>Technologies used:</h4>
-              <i class="fab fa-html5 toolIcon"></i>
-              <i class="fab fa-css3 toolIcon"></i>
-              <i class="fab fa-bootstrap toolIcon"></i>
-              <i class="fab fa-js toolIcon"></i>
-              <span
-                class="iconify toolIcon"
-                data-icon="file-icons:adobe-photoshop"
-              ></span>
-            </div>
-            <hr />
+          <h2>Rural Tour</h2>
+          <hr />
+        </div>
+        <div class="col-md-6 project mb-5">
+          <img src="./assets/images/gamarde.png" alt="" />
+          <div class="buttons">
+            <a target="_blank" class="buttonStyle" href="https://gamarde.mk/">See Live</a>
           </div>
 
-          <div class="col-md-6 project mb-5">
-            <img src="./assets/images/race-game.png" alt="" />
-            <div class="buttons">
-              <a
-                class="buttonStyle"
-                href="https://kstojcev.github.io/Car-Race-Game/"
-                >See Live</a
-              >
-              <a
-                class="buttonStyle"
-                href="https://github.com/kstojcev/Car-Race-Game"
-                >View code</a
-              >
-            </div>
-
-            <h2>Car Racing Game</h2>
-            <p>
-              A fully responsive Car Racing Game that allows the user to watch
-              two cars race once he starts the game. The cars finish randomly or
-              with different "speed" everytime they race. The latest race stats
-              are saved and upon refreshing the page they will be displayed in a
-              separate table.
-            </p>
-
-            <div>
-              <h4>Technologies used:</h4>
-              <i class="fab fa-html5 toolIcon"></i>
-              <i class="fab fa-css3 toolIcon"></i>
-              <i class="fab fa-bootstrap toolIcon"></i>
-              <i class="fab fa-js toolIcon"></i>
-              <span
-                class="iconify toolIcon"
-                data-icon="file-icons:adobe-photoshop"
-              ></span>
-            </div>
-            <hr />
+          <h2>Gamarde</h2>
+          <hr />
+        </div>
+        <div class="col-md-6 project mb-5">
+          <img src="./assets/images/twigspaper.png" alt="" />
+          <div class="buttons">
+            <a target="_blank" class="buttonStyle" href="https://twigspaper.com/">See Live</a>
           </div>
 
-          <div class="col-md-6 project mb-5">
-            <img src="./assets/images/quizify.png" alt="" />
-            <div class="buttons">
-              <a class="buttonStyle" href="https://kstojcev.github.io/Quizify/"
-                >See Live</a
-              >
-              <a class="buttonStyle" href="https://github.com/kstojcev/Quizify"
-                >View code</a
-              >
-            </div>
-
-            <h2>Quizify</h2>
-            <p>
-              A fully responsive Quiz page that gets questions from an API. Each
-              time the user answers a question the counter goes up and is saved
-              in storage. After answering the last question the user gets
-              information about how many of the answers he answered correctly.
-            </p>
-
-            <div>
-              <h4>Technologies used:</h4>
-              <i class="fab fa-html5 toolIcon"></i>
-              <i class="fab fa-css3 toolIcon"></i>
-              <i class="fab fa-bootstrap toolIcon"></i>
-              <i class="fab fa-js toolIcon"></i>
-              <span
-                class="iconify toolIcon"
-                data-icon="file-icons:adobe-photoshop"
-              ></span>
-            </div>
-            <hr />
+          <h2>Twigs Paper</h2>
+          <hr />
+        </div>
+        <div class="col-md-6 project mb-5">
+          <img src="./assets/images/sultanahmet.png" alt="" />
+          <div class="buttons">
+            <a target="_blank" class="buttonStyle" href="https://sultanahmet.ca/">See Live</a>
           </div>
+
+          <h2>Sultan Ahmet</h2>
+          <hr />
+        </div>
+        <div class="col-md-6 project mb-5">
+          <img src="./assets/images/piksel.png" alt="" />
+          <div class="buttons">
+            <a target="_blank" class="buttonStyle" href="https://piksel.mk/">See Live</a>
+          </div>
+
+          <h2>Piksel</h2>
+          <hr />
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"
-    ></script>
-    <!-- Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Iconify -->
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <!-- Custom Script -->
-    <script src="script.js"></script>
-  </body>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <!-- Iconify -->
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+</body>
+
 </html>
