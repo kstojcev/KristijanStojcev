@@ -6,11 +6,19 @@ $(function () {
 
   contact.on("click", function (e) {
     e.preventDefault();
-    if (contact.text() == "contact") {
-      contact.text("stojcev_kristijan@hotmail.com");
-    } else if (contact.text() == "stojcev_kristijan@hotmail.com") {
-      contact.text("contact");
-    }
+
+    const email = "stojchevkristijan@gmail.com";
+
+    // Copy email to clipboard
+    navigator.clipboard.writeText(email).then(() => {
+      if (contact.text() === "contact") {
+        contact.text(`${email} - copied`);
+      } else if (contact.text() === `${email} - copied`) {
+        contact.text("contact");
+      }
+    }).catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
   });
 
   aboutMeBtn.on("click", function () {
